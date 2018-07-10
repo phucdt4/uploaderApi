@@ -1,0 +1,33 @@
+{
+  "name": "uploaderapi",
+  "version": "1.0.0",
+  "description": "Uploader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phucdt4/uploaderApi.git"
+  },
+  "keywords": [
+    "uploader"
+  ],
+  "author": "PHUCDT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phucdt4/uploaderApi/issues"
+  },
+  "homepage": "https://github.com/phucdt4/uploaderApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "isbinaryfile": "^3.0.2",
+    "mongoose": "^5.2.2",
+    "multer": "^1.3.1"
+  }
+}
